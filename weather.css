@@ -1,24 +1,41 @@
+/* ============================
+   GLOBAL PAGE STYLES
+   ============================ */
 body {
-  font-family: Arial, sans-serif;
-  background: #87ceeb;
-  text-align: center;
-  padding: 50px;
+  font-family: Arial, sans-serif;   /* Clean readable font */
+  background: #87ceeb;              /* Sky blue background */
+  text-align: center;               /* Center all text */
+  padding: 50px;                    /* Space around content */
 }
 
+
+/* ============================
+   MAIN WEATHER BOX CONTAINER
+   ============================ */
 .container {
-  background: white;
-  padding: 20px;
-  border-radius: 12px;
-  width: 300px;
-  margin: auto;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  background: white;                /* White card background */
+  padding: 20px;                    /* Inner spacing */
+  border-radius: 12px;              /* Smooth round corners */
+  width: 300px;                     /* Box width */
+  margin: auto;                     /* Center box */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);  /* Soft shadow */
 }
+
+
+/* ============================
+   INPUT BOX FOR CITY NAME
+   ============================ */
 input {
-  padding: 10px;
-  width: 80%;
-  border-radius: 5px;
+  padding: 10px;                    /* Inner padding */
+  width: 80%;                       /* Input width */
+  border-radius: 5px;               /* Rounded corners */
 }
+
+
+/* ============================
+   FETCH WEATHER BUTTON
+   ============================ */
 button {
-  padding: 10px 15px;
-  margin-top: 10px;
+  padding: 10px 15px;               /* Button size */
+  margin-top: 10px;                 /* Space above button */
 }
